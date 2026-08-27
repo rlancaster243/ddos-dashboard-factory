@@ -1,0 +1,22 @@
+/* Theme: ECC Midnight Graphite | Archetype: executive-command-center
+   Steel-blue accent on graphite. Pure executive minimalism. */
+:root {
+  --bg-0: #0b0d10;
+  --bg-1: #14171c;
+  --bg-2: #1c2129;
+  --line: #2a3038;
+  --text-0: #e6e9ef;
+  --text-1: #a3acb9;
+  --text-2: #6b7480;
+  --accent: #7aa7d9;
+  --accent-soft: #7aa7d933;
+  --good: #4ade80;
+  --warn: #fbbf24;
+  --bad:  #f87171;
+  --neutral: #475569;
+  --panel-bg: rgba(20, 23, 28, 0.92);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.55);
+  --font-display: -apple-system, BlinkMacSystemFont, 'Inter', 'Geist', system-ui, sans-serif;
+  --font-body:    -apple-system, BlinkMacSystemFont, 'Inter', 'Geist', system-ui, sans-serif;
+  --font-mono:    'SF Mono', 'IBM Plex Mono', Menlo, monospace;
+}

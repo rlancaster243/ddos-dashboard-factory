@@ -1,0 +1,28 @@
+/* Theme: Glass & Aurora Frost Daybreak | Archetype: glass-aurora
+   Frosted glass with indigo-pink aurora. Glassmorphism light. */
+:root {
+  --bg-0: #eef2fb;
+  --bg-1: #f7f9ff;
+  --bg-2: #e4ebf7;
+  --line: #d6e0f0;
+  --text-0: #1c2438;
+  --text-1: #51607a;
+  --text-2: #8a97ad;
+  --accent: #6366f1;
+  --accent-soft: #6366f122;
+  --accent-2: #ec4899;
+  --good: #10b981;
+  --warn: #f59e0b;
+  --bad: #f43f5e;
+  --neutral: #94a3b8;
+  --panel-bg: rgba(255, 255, 255, 0.60);
+  --shadow: 0 8px 32px rgba(60, 80, 140, 0.10);
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --blur: 16px;
+  --gradient-bg: radial-gradient(120% 120% at 0% 0%, #6366f114, transparent 55%), radial-gradient(120% 120% at 100% 100%, #ec489914, transparent 55%);
+  --gradient-accent: linear-gradient(135deg, #6366f1, #a855f7);
+  --radius: 20px;
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}

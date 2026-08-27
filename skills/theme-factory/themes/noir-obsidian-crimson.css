@@ -1,0 +1,22 @@
+/* Theme: Noir Obsidian Crimson | Archetype: data-noir
+   Obsidian black with crimson accent. Investigative, high-contrast. */
+:root {
+  --bg-0: #000000;
+  --bg-1: #0a0708;
+  --bg-2: #14090c;
+  --line: #2a1418;
+  --text-0: #f4ecee;
+  --text-1: #b08a92;
+  --text-2: #745560;
+  --accent: #dc2626;
+  --accent-soft: #dc262633;
+  --good: #65a30d;
+  --warn: #d97706;
+  --bad:  #dc2626;
+  --neutral: #4a2a30;
+  --panel-bg: rgba(10, 7, 8, 0.96);
+  --shadow: 0 8px 36px rgba(0, 0, 0, 0.85);
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'IBM Plex Mono', Menlo, monospace;
+}

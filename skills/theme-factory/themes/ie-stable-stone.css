@@ -1,0 +1,22 @@
+/* Theme: IE Stable Stone | Archetype: institutional-enterprise
+   Warm stone, forest green accent. Established, conservative. WCAG AA. */
+:root {
+  --bg-0: #f4f1ea;
+  --bg-1: #ebe6d9;
+  --bg-2: #ddd7c5;
+  --line: #bbb39a;
+  --text-0: #1f1a10;
+  --text-1: #4a4332;
+  --text-2: #7b7460;
+  --accent: #14532d;
+  --accent-soft: #14532d1a;
+  --good: #15803d;
+  --warn: #a16207;
+  --bad:  #991b1b;
+  --neutral: #8a8268;
+  --panel-bg: rgba(252, 250, 245, 0.97);
+  --shadow: 0 4px 18px rgba(50, 40, 20, 0.14);
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-body:    'Source Sans 3', 'Atkinson Hyperlegible', -apple-system, system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', Menlo, monospace;
+}

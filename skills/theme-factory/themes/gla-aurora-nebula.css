@@ -1,0 +1,28 @@
+/* Theme: Glass & Aurora Nebula | Archetype: glass-aurora
+   Frosted glass with teal-violet aurora gradient. Glassmorphism dark. */
+:root {
+  --bg-0: #070a14;
+  --bg-1: #0d1222;
+  --bg-2: #141b30;
+  --line: #22304d;
+  --text-0: #eaf0ff;
+  --text-1: #9fb0d0;
+  --text-2: #64738f;
+  --accent: #5eead4;
+  --accent-soft: #5eead433;
+  --accent-2: #a78bfa;
+  --good: #34d399;
+  --warn: #fcd34d;
+  --bad: #fb7185;
+  --neutral: #475569;
+  --panel-bg: rgba(13, 18, 34, 0.55);
+  --shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --blur: 18px;
+  --gradient-bg: radial-gradient(120% 120% at 20% 0%, #5eead41a, transparent 60%), radial-gradient(120% 120% at 100% 100%, #a78bfa1a, transparent 60%);
+  --gradient-accent: linear-gradient(135deg, #5eead4, #a78bfa);
+  --radius: 20px;
+  --font-display: 'Inter', 'Geist', system-ui, sans-serif;
+  --font-body: 'Inter', 'Geist', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}

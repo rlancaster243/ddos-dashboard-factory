@@ -1,0 +1,22 @@
+/* Theme: MSA Snowfield | Archetype: modern-saas-analytics
+   Light snow background, electric blue accent. Bright, modern, clean. */
+:root {
+  --bg-0: #fafbfd;
+  --bg-1: #f1f4f9;
+  --bg-2: #e6ebf3;
+  --line: #d2dae7;
+  --text-0: #0d1320;
+  --text-1: #46506a;
+  --text-2: #7c8499;
+  --accent: #2563eb;
+  --accent-soft: #2563eb1a;
+  --good: #15803d;
+  --warn: #b45309;
+  --bad:  #b91c1c;
+  --neutral: #94a3b8;
+  --panel-bg: rgba(255, 255, 255, 0.96);
+  --shadow: 0 6px 22px rgba(15, 30, 60, 0.10);
+  --font-display: 'Inter', 'Geist', -apple-system, system-ui, sans-serif;
+  --font-body:    'Inter', 'Geist', -apple-system, system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'IBM Plex Mono', Menlo, monospace;
+}

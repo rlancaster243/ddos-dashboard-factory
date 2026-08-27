@@ -1,0 +1,19 @@
+{
+  "name": "ddos-dashboard-factory",
+  "version": "0.1.0",
+  "description": "DDOS dashboard-design system: archetype + theme selection (theme-factory) feeding HTML preview, PWA build, and 3D-globe scaffolding skills. Portable across Claude Code and Cursor.",
+  "author": {
+    "name": "Russell Lancaster"
+  },
+  "homepage": "https://github.com/rlancaster243/ddos-dashboard-factory",
+  "repository": "https://github.com/rlancaster243/ddos-dashboard-factory",
+  "keywords": [
+    "dashboard",
+    "design-system",
+    "themes",
+    "pwa",
+    "ddos",
+    "cursor",
+    "skills"
+  ]
+}

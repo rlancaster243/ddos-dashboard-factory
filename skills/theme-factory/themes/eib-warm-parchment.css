@@ -1,0 +1,22 @@
+/* Theme: EIB Warm Parchment | Archetype: editorial-intelligence-brief
+   Warm parchment, walnut accent, Fraunces display. Magazine pacing. */
+:root {
+  --bg-0: #f6f1e7;
+  --bg-1: #efe7d5;
+  --bg-2: #e7dcc4;
+  --line: #cdbf9d;
+  --text-0: #2a2418;
+  --text-1: #5b513e;
+  --text-2: #8a8067;
+  --accent: #8a5a2b;
+  --accent-soft: #8a5a2b22;
+  --good: #2e7d32;
+  --warn: #b97a1d;
+  --bad:  #a83232;
+  --neutral: #998a6c;
+  --panel-bg: rgba(246, 241, 231, 0.96);
+  --shadow: 0 4px 18px rgba(60, 45, 20, 0.18);
+  --font-display: 'Fraunces', 'Newsreader', Georgia, serif;
+  --font-body:    'Source Sans 3', 'Plus Jakarta Sans', -apple-system, system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', Menlo, monospace;
+}

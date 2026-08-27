@@ -1,0 +1,25 @@
+/* Theme: Luxe Espresso Gold | Archetype: luxe-minimal
+   Warm espresso dark with gold jewel accent. Refined editorial luxury. */
+:root {
+  --bg-0: #0f0a07;
+  --bg-1: #1a1209;
+  --bg-2: #241a0f;
+  --line: #352515;
+  --text-0: #f2ece4;
+  --text-1: #b09f8a;
+  --text-2: #7a6a58;
+  --accent: #d4af37;
+  --accent-soft: #d4af3722;
+  --accent-2: #b08d57;
+  --good: #6ee7b7;
+  --warn: #fcd34d;
+  --bad: #f87171;
+  --neutral: #6b5744;
+  --panel-bg: rgba(26, 18, 9, 0.92);
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  --gradient-accent: linear-gradient(135deg, #d4af37, #f2d272);
+  --radius: 6px;
+  --font-display: 'Playfair Display', 'Canela', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}

@@ -1,0 +1,22 @@
+/* Theme: ECC Deep Navy Amber | Archetype: executive-command-center
+   Deep navy with warm amber accent. Matches an existing globe-explorer palette. */
+:root {
+  --bg-0: #06101f;
+  --bg-1: #0a1628;
+  --bg-2: #122036;
+  --line: #1f3354;
+  --text-0: #e8eef7;
+  --text-1: #aab8cf;
+  --text-2: #6e7e96;
+  --accent: #f5a524;
+  --accent-soft: #f5a52433;
+  --good: #4ade80;
+  --warn: #fbbf24;
+  --bad:  #f87171;
+  --neutral: #334466;
+  --panel-bg: rgba(10, 22, 40, 0.92);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-body:    -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-mono:    'SF Mono', Menlo, monospace;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "rlancaster243",
+  "owner": {
+    "name": "Russell Lancaster"
+  },
+  "metadata": {
+    "description": "Personal marketplace hosting the DDOS dashboard-design skills."
+  },
+  "plugins": [
+    {
+      "name": "ddos-dashboard-factory",
+      "source": ".",
+      "description": "theme-factory + dashboard-preview + pwa-build + pwa-build-globe — the DDOS dashboard-design skills, usable in Claude Code and Cursor."
+    }
+  ]
+}

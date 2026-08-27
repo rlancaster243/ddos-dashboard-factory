@@ -1,0 +1,22 @@
+/* Theme: TOC Amber Monochrome | Archetype: technical-operations-console
+   Charcoal with amber phosphor monochrome. CRT throwback. */
+:root {
+  --bg-0: #0d0b07;
+  --bg-1: #14110a;
+  --bg-2: #1d1810;
+  --line: #2e2618;
+  --text-0: #ffcf80;
+  --text-1: #c69a4a;
+  --text-2: #7d6028;
+  --accent: #ffb53d;
+  --accent-soft: #ffb53d22;
+  --good: #b8e07a;
+  --warn: #ffb53d;
+  --bad:  #ff5e3a;
+  --neutral: #5c4a28;
+  --panel-bg: rgba(20, 17, 10, 0.94);
+  --shadow: 0 6px 28px rgba(0, 0, 0, 0.7);
+  --font-display: 'IBM Plex Mono', 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  --font-body:    'IBM Plex Mono', 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  --font-mono:    'IBM Plex Mono', 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}

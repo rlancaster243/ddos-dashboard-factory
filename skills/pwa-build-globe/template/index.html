@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{NAME}}</title>
+  <meta name="theme-color" content="{{THEME_BG}}" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.svg" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./icons/icon-192.svg" />
+  <link rel="stylesheet" href="./theme.css" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">{{MARK}}</span>
+      <span class="brand-name">{{NAME}}</span>
+      <span class="brand-tag">{{TAG}}</span>
+    </div>
+    <div class="controls">
+      <label class="control">
+        <span class="control-label">Metric</span>
+        <select id="metric-select"></select>
+      </label>
+      <label class="control">
+        <span class="control-label">Find country</span>
+        <input id="search-input" type="text" autocomplete="off" placeholder="Type a country…" />
+        <ul id="search-results" class="search-results" hidden></ul>
+      </label>
+      <label class="control toggle-control" id="hub-control" hidden>
+        <input id="hub-toggle" type="checkbox" checked />
+        <span class="control-label" id="hub-label">Show hubs</span>
+      </label>
+      <button id="panel-toggle" class="panel-toggle" type="button"
+              aria-label="Toggle details panel" aria-expanded="false" aria-controls="detail-panel">
+        <span aria-hidden="true">☰</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div id="globe" class="globe-canvas"></div>
+
+    <aside id="legend" class="legend">
+      <div class="legend-title" id="legend-title">—</div>
+      <div class="legend-body" id="legend-body"></div>
+      <div class="legend-meta" id="legend-meta"></div>
+    </aside>
+
+    <aside id="detail-panel" class="detail-panel" aria-hidden="true">
+      <button id="detail-close" class="detail-close" aria-label="Close">×</button>
+      <div class="detail-empty">
+        <div class="detail-empty-title">Click a highlighted country</div>
+        <div class="detail-empty-sub">Hover to preview · click to pin details here</div>
+      </div>
+      <div id="detail-content" class="detail-content" hidden></div>
+    </aside>
+
+    <div id="tooltip" class="tooltip" hidden></div>
+    <div id="toast" class="toast" hidden></div>
+  </main>
+
+  <footer class="bottombar">
+    <span id="footer-sources"></span>
+    <span class="sep">·</span>
+    <span>Globe: <a href="https://globe.gl" target="_blank" rel="noopener">globe.gl</a></span>
+  </footer>
+
+  <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="https://unpkg.com/d3-array@3.2.4/dist/d3-array.min.js"></script>
+  <script src="https://unpkg.com/d3-color@3.1.0/dist/d3-color.min.js"></script>
+  <script src="https://unpkg.com/d3-interpolate@3.0.1/dist/d3-interpolate.min.js"></script>
+  <script src="https://unpkg.com/d3-scale@4.0.2/dist/d3-scale.min.js"></script>
+  <script src="https://unpkg.com/d3-scale-chromatic@3.0.0/dist/d3-scale-chromatic.min.js"></script>
+  <script src="https://unpkg.com/globe.gl@2.32.4/dist/globe.gl.min.js"></script>
+  <script src="./app.js" defer></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(err => console.warn('SW registration failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>

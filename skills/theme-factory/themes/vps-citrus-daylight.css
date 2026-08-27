@@ -1,0 +1,25 @@
+/* Theme: VPS Citrus Daylight | Archetype: vibrant-product-studio
+   Warm coral and teal on light base. Energetic daylight mode. */
+:root {
+  --bg-0: #f7f8fc;
+  --bg-1: #ffffff;
+  --bg-2: #eef1f8;
+  --line: #e2e6f0;
+  --text-0: #1a1d29;
+  --text-1: #5a6172;
+  --text-2: #9098aa;
+  --accent: #ff6b3d;
+  --accent-soft: #ff6b3d22;
+  --accent-2: #14b8a6;
+  --good: #16a34a;
+  --warn: #f59e0b;
+  --bad: #ef4444;
+  --neutral: #94a3b8;
+  --panel-bg: rgba(255, 255, 255, 0.95);
+  --shadow: 0 6px 24px rgba(20, 30, 60, 0.08);
+  --gradient-accent: linear-gradient(135deg, #ff6b3d, #ffb03d);
+  --radius: 16px;
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}

@@ -1,0 +1,22 @@
+/* Theme: IE Corporate Steel | Archetype: institutional-enterprise
+   Steel gray, navy accent. Banking/government default. WCAG AA. */
+:root {
+  --bg-0: #eef1f5;
+  --bg-1: #e2e7ee;
+  --bg-2: #d4dbe5;
+  --line: #b6bfcc;
+  --text-0: #0d1a2b;
+  --text-1: #3c4a5e;
+  --text-2: #6c7689;
+  --accent: #1e3a8a;
+  --accent-soft: #1e3a8a1a;
+  --good: #166534;
+  --warn: #92400e;
+  --bad:  #991b1b;
+  --neutral: #6b7280;
+  --panel-bg: rgba(255, 255, 255, 0.97);
+  --shadow: 0 4px 18px rgba(20, 35, 60, 0.12);
+  --font-display: 'Source Sans 3', 'Atkinson Hyperlegible', -apple-system, system-ui, sans-serif;
+  --font-body:    'Source Sans 3', 'Atkinson Hyperlegible', -apple-system, system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', Menlo, monospace;
+}

@@ -1,0 +1,22 @@
+/* Theme: TOC Terminal Green | Archetype: technical-operations-console
+   Black terminal with phosphor green. Monospace primary. */
+:root {
+  --bg-0: #050707;
+  --bg-1: #0a0e0d;
+  --bg-2: #111614;
+  --line: #1c2723;
+  --text-0: #c9f2d6;
+  --text-1: #7fbf95;
+  --text-2: #4f8a64;
+  --accent: #39ff88;
+  --accent-soft: #39ff8822;
+  --good: #39ff88;
+  --warn: #ffb53d;
+  --bad:  #ff4f5e;
+  --neutral: #3f5a4a;
+  --panel-bg: rgba(10, 14, 13, 0.94);
+  --shadow: 0 6px 28px rgba(0, 0, 0, 0.7);
+  --font-display: 'IBM Plex Mono', 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  --font-body:    'IBM Plex Mono', 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  --font-mono:    'IBM Plex Mono', 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}

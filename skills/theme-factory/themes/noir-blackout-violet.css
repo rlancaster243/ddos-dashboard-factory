@@ -1,0 +1,22 @@
+/* Theme: Noir Blackout Violet | Archetype: data-noir
+   Pure blackout with electric violet. Cinematic data thriller. */
+:root {
+  --bg-0: #000000;
+  --bg-1: #07060c;
+  --bg-2: #100c1d;
+  --line: #2a1f47;
+  --text-0: #f0ecf7;
+  --text-1: #a89cc4;
+  --text-2: #6a5e85;
+  --accent: #a855f7;
+  --accent-soft: #a855f733;
+  --good: #4ade80;
+  --warn: #facc15;
+  --bad:  #f43f5e;
+  --neutral: #423362;
+  --panel-bg: rgba(7, 6, 12, 0.96);
+  --shadow: 0 8px 36px rgba(0, 0, 0, 0.85);
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'IBM Plex Mono', Menlo, monospace;
+}

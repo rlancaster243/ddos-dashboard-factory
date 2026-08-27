@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "pwa-build-globe config",
+  "type": "object",
+  "required": ["name", "short_name", "brand", "data", "geometry", "metrics"],
+  "properties": {
+    "name":       { "type": "string", "minLength": 1 },
+    "short_name": { "type": "string", "pattern": "^[a-zA-Z0-9 _-]+$" },
+    "version":    { "type": "string" },
+    "brand": {
+      "type": "object",
+      "required": ["tag"],
+      "properties": {
+        "mark": { "type": "string", "default": "●" },
+        "tag":  { "type": "string" }
+      }
+    },
+    "data": {
+      "type": "object",
+      "required": ["countries"],
+      "properties": {
+        "countries": { "type": "string", "description": "relative path to country_metrics.json" },
+        "hubs":      { "type": "string", "description": "relative path to hubs.json" }
+      }
+    },
+    "geometry": {
+      "type": "object",
+      "required": ["key", "world_atlas"],
+      "properties": {
+        "key":         { "type": "string", "enum": ["iso2"] },
+        "world_atlas": { "type": "string", "format": "uri" }
+      }
+    },
+    "metrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "kind"],
+        "properties": {
+          "id":             { "type": "string", "pattern": "^[a-z_][a-z0-9_]*$" },
+          "label":          { "type": "string" },
+          "units":          { "type": "string" },
+          "nice":           { "type": "string" },
+          "kind":           { "type": "string", "enum": ["numeric", "pct", "categorical"] },
+          "scale":          { "type": "string", "enum": ["viridis", "plasma", "turbo", "cividis", "greys", "set2", "hub"] },
+          "format":         { "type": "string", "enum": ["big", "pct1", "int", "raw", "as_is"] },
+          "good_direction": { "type": "string", "enum": ["high", "low", "none"] }
+        }
+      }
+    },
+    "overlays": {
+      "type": "object",
+      "properties": {
+        "hubs": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean", "default": false },
+            "label":   { "type": "string", "default": "Show hubs" }
+          }
+        }
+      }
+    },
+    "footer_sources": { "type": "array", "items": { "type": "string" } },
+    "detail_sections": {
+      "type": "array",
+      "description": "Optional config-driven detail panel. If absent, panel shows all metric values.",
+      "items": {
+        "type": "object",
+        "required": ["title", "fields"],
+        "properties": {
+          "title":  { "type": "string" },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "label"],
+              "properties": {
+                "key":    { "type": "string" },
+                "label":  { "type": "string" },
+                "format": { "type": "string", "enum": ["big", "pct1", "int", "raw", "as_is", "boolean_pass"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

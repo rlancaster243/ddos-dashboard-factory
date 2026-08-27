@@ -1,0 +1,22 @@
+/* Theme: EIB Newsprint Ink | Archetype: editorial-intelligence-brief
+   Cream newsprint with ink-black serif. Classic broadsheet. */
+:root {
+  --bg-0: #faf6ed;
+  --bg-1: #f3ede0;
+  --bg-2: #e9e1cc;
+  --line: #c9bea3;
+  --text-0: #15110a;
+  --text-1: #463f2f;
+  --text-2: #7c715b;
+  --accent: #1a1a1a;
+  --accent-soft: #1a1a1a11;
+  --good: #25683a;
+  --warn: #a76800;
+  --bad:  #882626;
+  --neutral: #8a7e63;
+  --panel-bg: rgba(250, 246, 237, 0.97);
+  --shadow: 0 2px 14px rgba(40, 32, 18, 0.16);
+  --font-display: 'Newsreader', 'Fraunces', Georgia, serif;
+  --font-body:    'Source Serif 4', Georgia, serif;
+  --font-mono:    'IBM Plex Mono', Menlo, monospace;
+}

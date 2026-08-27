@@ -1,0 +1,25 @@
+/* Theme: Luxe Pastel Calm | Archetype: luxe-minimal
+   Warm off-white with sage and rose pastels. Soft humanist calm. */
+:root {
+  --bg-0: #faf8f6;
+  --bg-1: #ffffff;
+  --bg-2: #f1ede9;
+  --line: #e7e1da;
+  --text-0: #2e2a26;
+  --text-1: #6b645c;
+  --text-2: #a39c93;
+  --accent: #8aa399;
+  --accent-soft: #8aa39922;
+  --accent-2: #d9a8a0;
+  --good: #7fb685;
+  --warn: #e6b566;
+  --bad: #d98a8a;
+  --neutral: #b8b0a6;
+  --panel-bg: rgba(255, 255, 255, 0.90);
+  --shadow: 0 4px 20px rgba(80, 70, 60, 0.06);
+  --gradient-accent: linear-gradient(135deg, #8aa399, #a8c0b3);
+  --radius: 14px;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Nunito', 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
